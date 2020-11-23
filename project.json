@@ -1,0 +1,222 @@
+{
+  "name": "Blank Process",
+  "description": "빈 프로세스",
+  "main": "Session11\\Invoke Workflow.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.Mail.Activities": "[1.9.3]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "flowchart\\flow2.xaml",
+      "uniqueId": "9d16bb72-0ca6-4cd8-9057-ee0e822a9086",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Recording\\recording_1.xaml",
+      "uniqueId": "54c5fa71-4e88-45ff-9760-65525a0688b0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Recording\\recording_2.xaml",
+      "uniqueId": "74035a90-9273-476f-85e3-e444af1f0884",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Recording\\recording_3.xaml",
+      "uniqueId": "8c904446-b6f7-43ed-a2cb-dbe4b2205310",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Recording\\recording_4.xaml",
+      "uniqueId": "84d2ad17-7802-46be-a616-7db2aebafa7b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Recording\\recording_5.xaml",
+      "uniqueId": "e25b405c-69d3-41d7-adc2-ad7c77c848ba",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Recording\\recording_6.xaml",
+      "uniqueId": "e3970d40-319f-4a15-a0cb-4ed2cb83d9db",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Recording\\page.122.xaml",
+      "uniqueId": "38422956-1430-404f-8716-98feb7f99d4f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Recording\\Session4(3_site).xaml",
+      "uniqueId": "99a85ece-e902-4b5f-be14-9a18d8439bea",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Get_Text.xaml",
+      "uniqueId": "9f4dbae4-b4fc-4e17-9673-dc196d6062fc",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Screen_Scraping.xaml",
+      "uniqueId": "d17016a7-6921-43e5-b5a2-64add8679c2e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Data_Scraping.xaml",
+      "uniqueId": "0c1be16e-974f-41cd-89a1-4afe8f04a9e0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Skill_UP.xaml",
+      "uniqueId": "0050afe0-7799-493c-a0a3-fab2275a20d0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Example.xaml",
+      "uniqueId": "7a29aafb-2905-490d-a962-b88b128f846f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Applications1.xaml",
+      "uniqueId": "4383fd84-74de-4871-84b1-f513d85293fd",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Applications2.xaml",
+      "uniqueId": "c01c5c5a-97ee-49a9-a361-5bc27610bb46",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Applications3.xaml",
+      "uniqueId": "a252b7e0-82ab-4521-b3be-26566696f9a5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session5\\Practice.xaml",
+      "uniqueId": "8d9e9d02-ac94-4e6d-a9e4-edf031e2b7cb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session6\\Selector 이론.xaml",
+      "uniqueId": "ae0ecd9b-54c7-4be9-87fb-8cae240fbdc6",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session6\\Selector 활용.xaml",
+      "uniqueId": "89d09994-38ba-444c-9bc8-f1e01e08c474",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session6\\Skill UP.xaml",
+      "uniqueId": "988f1714-9949-43f5-90c6-704432438377",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session7\\String Method.xaml",
+      "uniqueId": "0476b315-d66c-4243-8796-cbf2dc55d2f5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session7\\Array of[T].xaml",
+      "uniqueId": "4225cdc6-c4fa-4cc0-8dae-370c393a4038",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session7\\List.xaml",
+      "uniqueId": "8b458808-2211-43ba-9b16-c6795d67554e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session7\\Dictionary.xaml",
+      "uniqueId": "f7998498-1c41-4fc1-a7c3-a05ec4872675",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session7\\실습하기.xaml",
+      "uniqueId": "8e64b4dc-dda9-45cb-ade8-1faded12c698",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session9\\Debugging.xaml",
+      "uniqueId": "788ed298-d006-4964-b9cd-36c435411274",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session8\\excel_datatable.xaml",
+      "uniqueId": "f9694cee-5cad-4e75-a280-2b6c708381c7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Session11\\Invoke Workflow.xaml",
+      "uniqueId": "241a2f1d-8859-44df-b82b-a8317743e21b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
